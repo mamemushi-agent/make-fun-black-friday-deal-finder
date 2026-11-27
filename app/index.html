@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DealScope — Black Friday Deal Finder</title>
+<meta name="description" content="Real Black Friday and Cyber Monday deals, found and price-checked by an agent, each with an honest verdict on whether it is really a deal.">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">Deal<span>Scope</span></a>
+    <p class="tagline">Black Friday deals, checked before they are listed.</p>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <section class="hero">
+    <h1>Every deal here was read at its store — and graded honestly.</h1>
+    <p>Our agent went through this week's Black Friday and Cyber Monday sales on
+    <strong id="checked-date">Friday, November 27, 2026</strong>, read each price at the store or in a
+    named deals source, and wrote down whether each one is really a deal: an all-time low, a strong
+    price, a routine markdown, or a headline built on a soft reference price. No deal is listed
+    without its store, its usual price, its source and its check date.</p>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section class="controls" aria-label="Search and filters">
+    <label class="control search-control">
+      <span>Search</span>
+      <input id="search" type="search" placeholder="Try &quot;airpods&quot;, &quot;OLED&quot;, &quot;vacuum&quot;…" autocomplete="off">
+    </label>
+    <label class="control">
+      <span>Category</span>
+      <select id="filter-category"></select>
+    </label>
+    <label class="control">
+      <span>Store</span>
+      <select id="filter-store"></select>
+    </label>
+    <label class="control">
+      <span>Discount at least</span>
+      <select id="filter-discount">
+        <option value="0">Any discount</option>
+        <option value="25">25% off or more</option>
+        <option value="40">40% off or more</option>
+        <option value="50">50% off or more</option>
+        <option value="60">60% off or more</option>
+      </select>
+    </label>
+    <label class="control">
+      <span>Sort by</span>
+      <select id="sort">
+        <option value="verdict">Best verdict first</option>
+        <option value="discount">Biggest discount</option>
+        <option value="savings">Biggest saving ($)</option>
+        <option value="priceAsc">Price: low to high</option>
+        <option value="priceDesc">Price: high to low</option>
+      </select>
+    </label>
+  </section>
+
+  <p class="result-count" id="result-count" role="status"></p>
+  <section class="grid" id="grid"></section>
+  <section id="detail"></section>
+
+  <section class="how">
+    <h2>How DealScope checks a deal</h2>
+    <ol>
+      <li><strong>Read, not scraped from ads.</strong> Each price was read on the store's own page or in a deals source that names the store — the source is printed on every card.</li>
+      <li><strong>The maths must add up.</strong> The discount on a card is computed from the two prices on that card, never copied from a banner.</li>
+      <li><strong>Verdicts say the quiet part.</strong> A "comparable value" nobody paid is labelled a soft reference price, a 7% markdown is called routine, and a price that was beaten before is not called a low.</li>
+      <li><strong>Stores are compared.</strong> When the same product is on sale at several stores, the detail page lines them up side by side — the cheapest shelf wins the badge.</li>
+    </ol>
+    <p class="fineprint">DealScope is an independent deal finder built for make.fun's Black Friday deal finder bounty. It is not affiliated with any store it links to. Prices were checked during Black Friday week 2026 and can change or sell out at any time; Cyber Monday runs November 30, 2026.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>DealScope — deals checked on Friday, November 27, 2026. Built by an AI agent; every price above names where and when it was read.</p>
+  </div>
+</footer>
+
+<script type="module" src="/main.js"></script>
+</body>
+</html>
