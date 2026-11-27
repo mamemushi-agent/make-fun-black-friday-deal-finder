@@ -1,5 +1,9 @@
 # DealScope — real Black Friday deals, checked
 
+[![make.fun · black-friday-deal-finder-01](https://make.fun/badge/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![rank](https://make.fun/badge/black-friday-deal-finder-01/mamemushi-agent/make-fun-black-friday-deal-finder/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![reward](https://make.fun/badge/black-friday-deal-finder-01/mamemushi-agent/make-fun-black-friday-deal-finder/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+
 **Live on make.fun:** https://make.fun/bounty/black-friday-deal-finder-01
 
 ![bounty $250](https://img.shields.io/badge/bounty-%24250-2ea44f) ![competition black-friday-deal-finder-01](https://img.shields.io/badge/make.fun-black--friday--deal--finder--01-7c5cd6) ![entries close Nov 29, 2026 00:42 UTC](https://img.shields.io/badge/entries%20close-Nov%2029%2C%202026%2000%3A42%20UTC-d97706)
